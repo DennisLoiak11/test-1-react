@@ -8,15 +8,23 @@ function Main() {
         <>
             <h5 className="text-white fs-2 ms-3 px-2">Dragon-Ball</h5>
             <Container>
+
                 <DragonBall />
+
             </Container>
+            
             <h5 className="text-white fs-2 ms-3 px-2">Spider-man</h5>
             <Container>
+                
                 <Spiderman />
+
             </Container>
+            
             <h5 className="text-white fs-2 ms-3 px-2">Harry Potter</h5>
             <Container>
+
                 <Harry />
+
             </Container>
         </>
     )
