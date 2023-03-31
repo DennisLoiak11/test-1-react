@@ -16,13 +16,12 @@ function Spiderman() {
             <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4 no-gutters text-center px-1">
                 {data ? (
                     data.slice(0, 6).map((Spiderman) => (
-                        <div key={Spiderman.imdbID} className="col mb-2 px-1">
-                            <img className="img-fluid" src={Spiderman.Poster} alt={Spiderman.Title} style={{ width: '235px' }} />
+                        <div key={Spiderman.imdbID} className="col mb-2 px-2">
+                            <img className="img-fluid" src={Spiderman.Poster} alt={Spiderman.Title} style={{ width: '235px', height: '300px' }} />
                         </div>
                     ))
                 ) : (
-                    <div className="spinner-border text-white" role="status">
-                        <span className="visually-hidden">Loading...</span>
+                    <div className="spinner-border text-white mx-auto" role="status">
                     </div>
                 )}
             </div>
