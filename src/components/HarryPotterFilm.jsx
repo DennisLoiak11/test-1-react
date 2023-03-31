@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useFetch } from 'react'
 
 function Harry() {
     const [data, setData] = useState(null);
 
-    useEffect(() => {
+    useFetch(() => {
         const Fetch = async () => {
             const r = await fetch('http://www.omdbapi.com/?apikey=2dfa9c57&s=harry%20potter');
             const data = await r.json();

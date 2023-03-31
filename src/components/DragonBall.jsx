@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useFetch } from 'react'
 
 function DragonBall() {
     const [data, setData] = useState(null);
 
-    useEffect(() => {
+    useFetch(() => {
         const Fetch = async () => {
             const r = await fetch('http://www.omdbapi.com/?apikey=2dfa9c57&s=dragon%20ball');
             const data = await r.json();
