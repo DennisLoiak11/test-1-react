@@ -33,7 +33,10 @@ function MyNav(){
                         </li>
                     </ul>
                     <div className="d-flex text-white align-items-center justify-content-end">
+                        <i className="bi bi-search px-2 text-secondary"></i>
                         <p className="px-2 my-0">KIDS</p>
+                        <i className="bi bi-bell-fill px-2 text-secondary"></i>
+
                     </div>
                 </div>
             </div>
